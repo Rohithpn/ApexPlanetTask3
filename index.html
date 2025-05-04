@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Styling & JavaScript</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:,">
+
+</head>
+<body>
+  <div class="container">
+    <h1>Image Carousel</h1>
+    <div class="carousel">
+      <img id="carouselImage" src="https://via.placeholder.com/300x200?text=Image+1" alt="carousel">
+      <div class="buttons">
+        <button onclick="prevImage()">Prev</button>
+        <button onclick="nextImage()">Next</button>
+      </div>
+    </div>
+
+    <h2>Random Joke</h2>
+    <button onclick="fetchJoke()">Get Joke</button>
+    <p id="jokeText"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
